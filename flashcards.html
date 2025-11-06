@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body class="bg-black">
+    <header class="bg-black text-white p-6 ">
+        <h1 class="text-3xl font-bold"><a href="index.html">Home</a> >> <a href="flashcards.html">Flashcards</a></h1>
+
+
+    </header>
+    <main>
+        <form class="text-white ml-30 mr-30 flex flex-col gap-5 justify-center items-center" action="">
+            
+                <h3 class="flex justify-center mt-10 font-bold">creer une nouvelle collection</h3>
+                <input class="bg-white text-black px-6" type="text"
+                    placeholder="titre de la collection">
+                <button class=" bg-blue-500 px-6 rounded-3xl  ">cree</button>
+            
+
+        </form>
+
+
+
+        <form class="text-white ml-30 mr-30 flex flex-col gap-5 justify-center items-center mt-10" action="">
+            <h3 class="flex justify-center mt-10 font-bold" >creer une carte</h3>
+            <input class="bg-white text-black px-6" type="text" placeholder="choisir une collection">
+            <input  class="bg-white text-black px-6" type="text" placeholder="Question">
+            <input class="bg-white text-black px-6" type="text" placeholder="Reponse">
+            <button class=" bg-blue-500 px-6 rounded-3xl">cree</button>
+        </form>
+
+        <section class="text-white ml-30 mr-30 flex flex-col gap-1 justify-center items-center mt-10">
+            <div class="bg-white text-black  pr-15 pl-15">collection name </div>
+            <div class="bg-white text-black  pr-21 pl-21"> Question</div>
+            <div class="bg-white text-black  pr-21 pl-21"> Reponse</div>
+
+            <div class="flex gap-10 mt-5">
+                <button> << presedent</button>
+                <button>suivant >></button>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+     <footer class="bg-gray-800 text-white text-center p-4 mt-6">
+        &copy; 2025 Cards App - Projet d'apprentissage.
+    </footer>
+
+</body>
+
+</html>
