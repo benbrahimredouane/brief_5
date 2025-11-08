@@ -10,41 +10,54 @@
 
 <body class="bg-black ">
 
-    <header class="bg-black text-white p-6 ">
-       <a href="index.html"> <h1 class="text-3xl font-bold">Home</h1></a>
-
+    <header class="flex justify-around items-center bg-black text-white p-6 w-full">
+        <a href="index.html">
+            <h1 class="text-3xl font-bold">Home</h1>
+        </a>
+        <div class="flex justify-center gap-5">
+            <a href="flashcards.html">
+                <button class="p-4 text-white bg-blue-500 rounded-3xl">Flashcards</button>
+            </a>
+            <a href="quiz.html">
+                <button class="p-4 text-white bg-green-500 rounded-3xl">Quiz</button>
+            </a>
+        </div>
     </header>
 
-    <main>
+
+    <main class=" flex  justify-center items-center">
         <section>
             <div>
-            <h1 class="text-white flex justify-center text-3xl  font-semibold">Cards</h1>
-           
+              
+                <h1 class="text-white flex justify-center text-3xl font-semibold">Studying Online is <br> now much
+                    easier</h1>
 
-            <p class=" text-white p-8 flex justify-center">apprenez faciielement grace aux
-                flashcards et quiz interactifs</p>
-                </div>
 
-            <div class="flex justify-center items-center">
-                <p class="bg-white text-black  border-2 mt-6 p-8 rounded-3xl mr-30 ml-30 ">Nombre de collections  disponibles : 0</p>
+                <p class=" text-white pt-8 flex justify-center">Learn easily with
+                </p>
+                <p class="text-white flex justify-center">
+                    flashcards and interactive quizze
+                </p>
             </div>
-            <div class="flex justify-center gap-5 mt-6">
-                <a href="flashcards.html"><button class="p-4 text-white bg-blue-500 rounded-3xl">Flashcards</button></a>
-                <a href="quiz.html"><button class="p-4 text text-white bg-green-500 rounded-3xl">Quiz</button></a>
+
+            <div class="flex justify-center items-center mt-5">
+                <p class="bg-white text-black p-4  rounded-3xl mr-30 ml-30 ">Nombre de collections disponibles : 0</p>
             </div>
+
 
         </section>
+        <img  src="imgs/girlStudy.png" alt="studyinggirl" width="50%">
     </main>
 
 
 
-    <footer class="bg-gray-800 text-white text-center p-4 mt-6 absolute bottom-0 w-screen">
+    <footer class="bg-gray-800 text-white text-center p-8">
         &copy; 2025 Cards App - Projet d'apprentissage.
     </footer>
 
 
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>
