@@ -6,55 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flashcards</title>
     <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="bg-black">
-    <header class="bg-black text-white p-6 ">
-        <h1 class="text-3xl font-bold"><a href="index.html">Home</a> >> <a href="flashcards.html">Flashcards</a></h1>
-
-
+    <header class="flex justify-around items-center bg-black text-white p-6 w-full">
+        <a href="index.html">
+            <h1 class="text-3xl font-bold">Home >> Flashcards</h1>
+        </a>
+        <div class="flex justify-center gap-5">
+            <a href="flashcards.html">
+                <button class="p-4 text-white bg-blue-500 rounded-3xl">Flashcards</button>
+            </a>
+            <a href="quiz.html">
+                <button class="p-4 text-white bg-green-500 rounded-3xl">Quiz</button>
+            </a>
+        </div>
     </header>
     <main>
-        <form class="text-white ml-30 mr-30 flex flex-col gap-5 justify-center items-center" action="">
+        <div class="flex justify-around items-center p-4 mt-5">
+        <img  src="imgs/girlhandrise.png" alt="" width="40%">
+        <form class="text-white  flex flex-col gap-5 justify-center items-center" action="">
             
-                <h3 class="flex justify-center mt-10 font-bold">creer une nouvelle collection</h3>
+                <h3 class="flex justify-center mt-10 font-bold">Add new collection</h3>
                 <input class="bg-white text-black px-6" type="text"
                     placeholder="titre de la collection">
-                <button class=" bg-blue-500 px-6 rounded-3xl  ">cree</button>
+                <button class=" bg-blue-500 px-6 rounded-3xl  ">Add</button>
             
 
         </form>
+        </div>
 
 
 
-        <form class="text-white ml-30 mr-30 flex flex-col gap-5 justify-center items-center mt-10" action="">
-            <h3 class="flex justify-center mt-10 font-bold" >creer une carte</h3>
+        <div class="flex justify-around mt-10 ">
+        <form class="text-white  flex flex-col gap-5 justify-center items-center mt-10" action="">
+            <h3 class="flex justify-center mt-10 font-bold" >Add Card</h3>
             <input class="bg-white text-black px-6" type="text" placeholder="choisir une collection">
             <input  class="bg-white text-black px-6" type="text" placeholder="Question">
             <input class="bg-white text-black px-6" type="text" placeholder="Reponse">
-            <button class=" bg-blue-500 px-6 rounded-3xl">cree</button>
+            <button class=" bg-blue-500 px-6 rounded-3xl">Add</button>
         </form>
+        <img src="imgs/girlhandrise2.png" alt="" width="40%">
+        </div>
 
-        <section class="text-white ml-30 mr-30 flex flex-col gap-1 justify-center items-center mt-10">
-            <div class="bg-white text-black  pr-15 pl-15">collection name </div>
-            <div class="bg-white text-black  pr-21 pl-21"> Question</div>
-            <div class="bg-white text-black  pr-21 pl-21"> Reponse</div>
+        <div class="flex flex-row mt-10 mb-10 gap-5">
 
-            <div class="flex gap-10 mt-5">
+        <section class="text-white  flex justify-center items-center bg-white rounded-3xl flex-col ">
+            <img class="" src="imgs/card_image.png" alt="" width="">
+            <div class=" text-black  pr-15 pl-15">collection name </div>
+            <div class=" text-black  pr-21 pl-21"> Question</div>   
+        </section>
+         <section class="text-white  flex justify-center items-center bg-white rounded-3xl flex-col ">
+            <img class="" src="imgs/card_image.png" alt="" width="">
+            <div class=" text-black  pr-15 pl-15">collection name </div>
+            <div class=" text-black  pr-21 pl-21"> Question</div>   
+        </section>
+         <section class="text-white  flex justify-center items-center bg-white rounded-3xl flex-col ">
+            <img class="" src="imgs/card_image.png" alt="" width="">
+            <div class=" text-black  pr-15 pl-15">collection name </div>
+            <div class=" text-black  pr-21 pl-21"> Question</div>   
+        </section>
+        </div>
+        
+
+        <div class="text-white flex gap-10 mt-5 flex justify-center mb-5">
                 <button> << presedent</button>
                 <button>suivant >></button>
-            </div>
-        </section>
+     </div>
 
     </main>
 
 
 
 
-     <footer class="bg-gray-800 text-white text-center p-4 mt-6">
+     <footer class="bg-blue-500 text-white text-center p-8">
         &copy; 2025 Cards App - Projet d'apprentissage.
     </footer>
-
 </body>
 
 </html>
