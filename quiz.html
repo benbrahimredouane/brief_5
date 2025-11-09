@@ -9,10 +9,18 @@
 </head>
 
 <body class="bg-black">
-    <header class="bg-black text-white p-6 ">
-        <h1 class="text-3xl font-bold"><a href="index.html">Home</a> >> <a href="quiz.html">Quiz</a></h1>
-
-
+   <header class="flex flex-row justify-around  bg-black text-white p-6 max-sm:flex-col  ">
+        <a class="max-sm:flex max-sm:justify-center max-sm:p-4" href="index.html">
+            <h1 class="text-3xl font-bold">Quiz</h1>
+        </a>
+        <div class="flex justify-center gap-5">
+            <a href="flashcards.html">
+                <button class="p-4 text-white bg-blue-500 rounded-3xl">Flashcards</button>
+            </a>
+            <a href="quiz.html">
+                <button class="p-4 text-white bg-green-500 rounded-3xl ">Quiz</button>
+            </a>
+        </div>
     </header>
     <main>
 
@@ -62,10 +70,10 @@
 
 
 
-     <footer class="bg-blue-500 text-white text-center p-8">
+     <footer class="bg-blue-500 text-white text-center p-8 ">
         &copy; 2025 Cards App - Projet d'apprentissage.
     </footer>
-
+<script src="script.js"></script>
 </body>
 
 </html>
