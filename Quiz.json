@@ -1,0 +1,42 @@
+[
+  {
+    "collection": "HTML",
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "High Transfer Machine Language",
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language"
+    ],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "collection": "HTML",
+    "question": "Which tag defines the largest heading?",
+    "options": ["<h1>", "<heading>", "<h6>", "<head>"],
+    "answer": "<h1>"
+  },
+  {
+    "collection": "HTML",
+    "question": "What tag is used to insert an image?",
+    "options": ["<src>", "<image>", "<img>", "<picture>"],
+    "answer": "<img>"
+  },
+  {
+    "collection": "HTML",
+    "question": "What tag is used to create a hyperlink?",
+    "options": ["<a>", "<link>", "<href>", "<url>"],
+    "answer": "<a>"
+  },
+  {
+    "collection": "HTML",
+    "question": "What is the purpose of HTML?",
+    "options": [
+      "To style web pages",
+      "To structure content on web pages",
+      "To make pages dynamic",
+      "To store data"
+    ],
+    "answer": "To structure content on web pages"
+  }
+]
