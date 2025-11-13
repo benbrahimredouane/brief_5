@@ -1,6 +1,6 @@
 [
   {
-    "collection": "HTML",
+    
     "question": "What does HTML stand for?",
     "options": [
       "Hyper Text Markup Language",
@@ -11,25 +11,25 @@
     "answer": "Hyper Text Markup Language"
   },
   {
-    "collection": "HTML",
+    
     "question": "Which tag defines the largest heading?",
     "options": ["<h1>", "<heading>", "<h6>", "<head>"],
     "answer": "<h1>"
   },
   {
-    "collection": "HTML",
+    
     "question": "What tag is used to insert an image?",
     "options": ["<src>", "<image>", "<img>", "<picture>"],
     "answer": "<img>"
   },
   {
-    "collection": "HTML",
+    
     "question": "What tag is used to create a hyperlink?",
     "options": ["<a>", "<link>", "<href>", "<url>"],
     "answer": "<a>"
   },
   {
-    "collection": "HTML",
+    
     "question": "What is the purpose of HTML?",
     "options": [
       "To style web pages",
@@ -38,5 +38,66 @@
       "To store data"
     ],
     "answer": "To structure content on web pages"
+  },
+   {
+    "question": "Which property is used to change the text color in CSS?",
+    "options": ["font-color", "color", "text-color", "foreground"],
+    "answer": "color"
+  },
+  {
+    "question": "Which CSS property controls the text size?",
+    "options": ["font-size", "text-style", "text-size", "font-weight"],
+    "answer": "font-size"
+  },
+  {
+    "question": "Which property is used to change the background color?",
+    "options": ["bgcolor", "background-color", "color-background", "background"],
+    "answer": "background-color"
+  },
+  {
+    "question": "How do you make text bold in CSS?",
+    "options": ["font-weight: bold;", "text-decoration: bold;", "style: bold;", "font-style: bold;"],
+    "answer": "font-weight: bold;"
+  },
+  {
+    "question": "Which property is used to align text in the center?",
+    "options": ["align: center;", "text-align: center;", "center-text: true;", "text: center;"],
+    "answer": "text-align: center;"
+  },
+  {
+    "question": "Which symbol is used for single-line comments in JavaScript?",
+    "options": ["//", "/*", "#", "<!-- -->"],
+    "answer": "//"
+  },
+  {
+    "question": "How do you create a function in JavaScript?",
+    "options": [
+      "function myFunction() {}",
+      "create myFunction() {}",
+      "def myFunction() {}",
+      "function:myFunction()"
+    ],
+    "answer": "function myFunction() {}"
+  },
+  {
+    "question": "Which keyword declares a variable that can change its value?",
+    "options": ["const", "var", "static", "define"],
+    "answer": "var"
+  },
+  {
+    "question": "What does '===' mean in JavaScript?",
+    "options": [
+      "Equal in value only",
+      "Equal in type only",
+      "Equal in both value and type",
+      "Assignment operator"
+    ],
+    "answer": "Equal in both value and type"
+  },
+  {
+    "question": "Which method is used to print something in the console?",
+    "options": ["console.print()", "print()", "console.log()", "log.console()"],
+    "answer": "console.log()"
   }
+
 ]
