@@ -28,9 +28,10 @@
         <form class="text-white  flex flex-col gap-5 justify-center items-center" action="">
             
                 <h3 class="flex justify-center mt-10 font-bold">Add new collection</h3>
-                <input class="bg-white text-black px-6" type="text"
+                <input class="bg-white text-black px-6 rounded-3xl outline-none focus:scale-105" id="collection" type="text"
                     placeholder="titre de la collection">
-                <button class=" bg-blue-500 px-6 rounded-3xl  ">Add</button>
+                <button type="submit" class=" bg-blue-500 px-6 rounded-3xl" id="addcollection">Add</button>
+                
             
 
         </form>
@@ -41,10 +42,11 @@
         <form class="text-white  flex flex-col gap-5 justify-center items-center" action="">
             
                 <h3 class="flex justify-center mt-10 font-bold">Add new Card</h3>
-                    <input class="bg-white text-black px-6" type="text" placeholder="choisir une collection">
-            <input  class="bg-white text-black px-6" type="text" placeholder="Question">
-            <input class="bg-white text-black px-6" type="text" placeholder="Reponse">
-                <button class=" bg-blue-500 px-6 rounded-3xl  ">Add</button>
+                    <select class="bg-white text-black px-6 rounded-3xl  outline-none w-58" type="text " id="options" placeholder="choisir une collection">
+                    </select>
+            <input  class="bg-white text-black px-6 rounded-3xl outline-none focus:scale-105" type="text" placeholder="Question">
+            <input class="bg-white text-black px-6 rounded-3xl outline-none focus:scale-105" type="text" placeholder="Reponse">
+                <button class=" bg-blue-500 px-6 rounded-3xl  " type="submit">Add</button>
             
 
         </form>
@@ -71,18 +73,20 @@
             <div class=" text-black  pr-21 pl-21"> Question</div>   
         </section>
         </div>
+    
         
 
        
 
     </main>
+f
 
 
 
-
-     <footer class="bg-blue-500 text-white text-center p-8">
-        &copy; 2025 Cards App - Projet d'apprentissage.
+       <footer class="bg-blue-500 text-white text-center p-8 ">
+        &copy; 2025 Cards App - Learning project.
     </footer>
+    <script src="flashcardsscript.js"></script>
 </body>
 
 </html>

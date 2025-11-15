@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flashcards</title>
+    <title>Quiz</title>
     <link rel="stylesheet" href="src/output.css">
 </head>
 
 <body class="bg-black">
-   <header class="flex flex-row justify-around  bg-black text-white p-6 max-sm:flex-col  ">
+    <header class="flex flex-row justify-around  bg-black text-white p-6 max-sm:flex-col  ">
         <a class="max-sm:flex max-sm:justify-center max-sm:p-4" href="index.html">
             <h1 class="text-3xl font-bold">Quiz</h1>
         </a>
@@ -18,62 +18,34 @@
                 <button class="p-4 text-white bg-blue-500 rounded-3xl">Flashcards</button>
             </a>
             <a href="quiz.html">
-                <button class="p-4 text-white bg-green-500 rounded-3xl ">Quiz</button>
+                <button class="p-4 text-white bg-green-500 rounded-3xl  ">Quiz</button>
             </a>
         </div>
     </header>
     <main>
 
-
-
-
-
-
-
-
-
-
-        <section class="flex justify-center text-white flex-col items-center gap-5 mt-10  p-6">
+        <section class="flex justify-center text-white flex-col items-center gap-5 mt-10  p-6 " id="section">
 
             <h3 class="font-semibold text-3xl">Quiz</h3>
-            <div class="flex flex-col gap-5">
-                <div class="bg-gray-800 px-40 py-8 rounded-3xl max-sm:px-20">collection name</div>
-                <div class="flex flex-row-reverse justify-center bg-gray-800 p-3 rounded-3xl">
-                    <label for="">option1</label>
-                    <input type="checkbox" name="option_name" value="option_1">
-                </div>
-                <div class="flex flex-row-reverse justify-center bg-gray-800 p-3 rounded-3xl">
-                    <label for="">option2</label>
-                    <input type="checkbox" name="option_name" value="option_1">
-                </div>
-                <div class="flex flex-row-reverse justify-center bg-gray-800 p-3 rounded-3xl">
-                    <label for="">option3</label>
-                    <input type="checkbox" name="option_name" value="option_1">
-                </div>
-                <div class="flex flex-row-reverse justify-center bg-gray-800 p-3 rounded-3xl">
-                    <label for="">option4</label>
-                    <input type="checkbox" name="option_name" value="option_1">
-                </div>
 
+            <div class="bg-gray-800 px-40 py-8 rounded-3xl max-sm:px-20" id="question"> the question</div>
 
-            </div>
-            <button class=" bg-blue-500  rounded-3xl px-48 max-sm:px-30">Next</button>
+            <button class=" bg-gray-800  rounded-3xl px-48 py-3 max-sm:px-30 hover:transition-10 " id="q1">qustion</button>
+            <button class=" bg-gray-800  rounded-3xl px-48 py-3 max-sm:px-30 hover:bg-orange-800" id="q2">qustion</button>
+            <button class=" bg-gray-800  rounded-3xl px-48  py-3 max-sm:px-30 hover:bg-orange-800" id="q3">qustion</button>
+            <button class=" bg-gray-800  rounded-3xl px-48 py-3 max-sm:px-30 hover:bg-orange-800" id="q4">qustion</button>
+            <button class=" bg-blue-500  rounded-3xl px-48 max-sm:px-30" id="nextquestion">Next</button>
 
 
         </section>
 
-
+        
 
     </main>
-
-
-
-
-
-     <footer class="bg-blue-500 text-white text-center p-8 ">
-        &copy; 2025 Cards App - Projet d'apprentissage.
+    <footer class="bg-blue-500 text-white text-center p-8 ">
+        &copy; 2025 Cards App - Learning project.
     </footer>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
