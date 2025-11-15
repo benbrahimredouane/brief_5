@@ -44,9 +44,9 @@
                 <h3 class="flex justify-center mt-10 font-bold">Add new Card</h3>
                     <select class="bg-white text-black px-6 rounded-3xl  outline-none w-58" type="text " id="options" placeholder="choisir une collection">
                     </select>
-            <input  class="bg-white text-black px-6 rounded-3xl outline-none focus:scale-105" type="text" placeholder="Question">
-            <input class="bg-white text-black px-6 rounded-3xl outline-none focus:scale-105" type="text" placeholder="Reponse">
-                <button class=" bg-blue-500 px-6 rounded-3xl  " type="submit">Add</button>
+            <input  class="bg-white text-black px-6 rounded-3xl outline-none focus:scale-105" type="text  " id="Question" placeholder="Question">
+            <input class="bg-white text-black px-6 rounded-3xl outline-none focus:scale-105" type="text" id="Reponse" placeholder="Reponse">
+                <button class=" bg-blue-500 px-6 rounded-3xl  " type="submit" id="addcard">Add</button>
             
 
         </form>
@@ -55,23 +55,9 @@
 
 
 
-        <div class="grid grid-cols-3 mt-10 mb-10 gap-5 justify-around px-6 max-sm:grid-cols-2">
-
-        <section class="text-white  flex justify-center items-center bg-white rounded-3xl flex-col p-4 ">
-
-            <div class=" text-black  pr-15 pl-15">collection name </div>
-            <div class=" text-black  pr-21 pl-21"> Question</div>   
-        </section>
-         <section class="text-white  flex justify-center items-center bg-white rounded-3xl flex-col p-4 ">
-       
-            <div class=" text-black  pr-15 pl-15">collection name </div>
-            <div class=" text-black  pr-21 pl-21"> Question</div>   
-        </section>
-         <section class="text-white  flex justify-center items-center bg-white rounded-3xl flex-col p-4">
-      
-            <div class=" text-black  pr-15 pl-15">collection name </div>
-            <div class=" text-black  pr-21 pl-21"> Question</div>   
-        </section>
+        <div class="grid grid-cols-3 mt-10 mb-10 gap-5 justify-around px-6 max-sm:grid-cols-2" id="card">
+        
+        
         </div>
     
         
